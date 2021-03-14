@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <h2>Tabela Simples</h2>
+    <table>
+        <caption>Tabela simples</caption>
+        <tbody>
+            <tr>
+                <td>Trompete</td>
+                <td>Trombone</td>
+            </tr>
+            <tr>
+                <td>Trompa</td>
+                <td>Tuba</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela com células de título</h2>
+    <table>
+        <tr>
+            <th>Agundo</th>
+            <th>Grave</th>
+        </tr>
+        <tr>
+            <td>Trompete</td>
+            <td>Trombone</td>
+        </tr>
+    </table>
+
+    <h2>Cabeçalho, corpo e rodapé da tabela</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" scope="colgroup">Tabela de preços</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="row">Seminovos</th>
+                <th scope="col">Trompete</th>
+                <th scope="col">Trombone</th>
+            </tr>
+            <tr>
+                <td>R$500</td>
+                <td>R$640</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Visite nossa loja</td>
+        </tfoot>
+    </table>
+
+    <h2>Grupos de colunas 1</h2>
+    <table>
+        <thead>
+            <tr>
+                <th style="background: grey" scope="col">Agundo</th>
+                <th style="background: grey" scope="col">Médio</th>
+                <th style="background: grey" scope="col">Grave</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Trompete</td>
+                <td>Trompa</td>
+                <td>Trombone</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Bb</td>
+            <td>Fa</td>
+            <td>C</td>
+        </tfoot>
+    </table>
+
+    <h2>Grupo de colunas 2</h2>
+    <table>
+        <colgroup span="3">
+            <col class="coluna1">
+            <col class="coluna2">
+            <col class="coluna3">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Agundo</th>
+                <th scope="col">Médio</th>
+                <th scope="col">Grave</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Trompete</td>
+                <td>Trompa</td>
+                <td>Trombone</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
